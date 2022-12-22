@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="code.js" defer>
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Converter</h1>
+      <label for="IntialValue" class="intial">From :-</label>
+      <select name="NoType" id="IntialValue">
+        <option value="10">Decimal</option>
+        <option value="16">Hexadecimal</option>
+        <option value="8">Octal</option>
+        <option value="2">Binary</option>
+      </select>
+      <br />
+      <label for="finalValue">To :-</label>
+      <select name="NoType" id="finalValue">
+        <option value="2">Binary</option>
+        <option value="16">Hexadecimal</option>
+        <option value="10">Decimal</option>
+        <option value="8">Octal</option>
+      </select>
+      <br />
+      <input type="text" id="input" placeholder="enter the desired value" />
+      <br />
+
+      <input type="text" placeholder="Output" id="output" />
+      <br />
+
+      <button type="button" class="btn" id="convert">Convert</button>
+      <button type="button" class="btn" id="swap">Swap</button>
+      <button type="button" class="btn" id="Reset">Reset</button>
+    </div>
+  </body>
+</html>
